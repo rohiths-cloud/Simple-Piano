@@ -35,157 +35,7 @@ public class KeyControl : MonoBehaviour
     [SerializeField] GameObject highGs;
     [SerializeField] GameObject highAs;
 
-    void Update()
-    {
-
-        ///Low Keys Controls
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            lowC.SetActive(false);
-            lowC.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            lowD.SetActive(false);
-            lowD.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            lowE.SetActive(false);
-            lowE.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            lowF.SetActive(false);
-            lowF.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            lowG.SetActive(false);
-            lowG.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            lowA.SetActive(false);
-            lowA.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            lowB.SetActive(false);
-            lowB.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            lowCs.SetActive(false);
-            lowCs.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            lowDs.SetActive(false);
-            lowDs.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            lowFs.SetActive(false);
-            lowFs.SetActive(true);
-       }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Alpha6))
-        {
-            lowGs.SetActive(false);
-            lowGs.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Alpha7))
-        {
-            lowAs.SetActive(false);
-            lowAs.SetActive(true);
-        }
-        //end keys
-        // High keys controls
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            highC.SetActive(false);
-            highC.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            highD.SetActive(false);
-            highD.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            highE.SetActive(false);
-            highE.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            highF.SetActive(false);
-            highF.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            highG.SetActive(false);
-            highG.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            highA.SetActive(false);
-            highA.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            highB.SetActive(false);
-            highB.SetActive(true);
-        }
-        //end keys
-        ////////////////////////////////////////////
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            highCs.SetActive(false);
-            highCs.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Equals))
-        {
-            highDs.SetActive(false);
-            highDs.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Minus))
-        {
-            highFs.SetActive(false);
-            highFs.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Alpha0))
-        {
-            highGs.SetActive(false);
-            highGs.SetActive(true);
-        }
-        //end keys
-        if (Input.GetKeyDown(KeyCode.Alpha9))
-        {
-            highAs.SetActive(false);
-            highAs.SetActive(true);
-        }
-        //end keys
-    }
+    
 
 
     /// touch methods
@@ -404,4 +254,154 @@ public class KeyControl : MonoBehaviour
         highC.SetActive(false);
         highC.SetActive(true);
     }
+    #if UNITY_EDITOR 
+     // keyboard controls
+        ///Low Keys Controls
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            lowC.SetActive(false);
+            lowC.SetActive(true);
+        } 
+        //end keys
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            lowD.SetActive(false);
+            lowD.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            lowE.SetActive(false);
+            lowE.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            lowF.SetActive(false);
+            lowF.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            lowG.SetActive(false);
+            lowG.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            lowA.SetActive(false);
+            lowA.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            lowB.SetActive(false);
+            lowB.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            lowCs.SetActive(false);
+            lowCs.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            lowDs.SetActive(false);
+            lowDs.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            lowFs.SetActive(false);
+            lowFs.SetActive(true);
+       }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            lowGs.SetActive(false);
+            lowGs.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            lowAs.SetActive(false);
+            lowAs.SetActive(true);
+        }
+        //end keys
+        // High keys controls
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            highC.SetActive(false);
+            highC.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            highD.SetActive(false);
+            highD.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            highE.SetActive(false);
+            highE.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            highF.SetActive(false);
+            highF.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            highG.SetActive(false);
+            highG.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            highA.SetActive(false);
+            highA.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            highB.SetActive(false);
+            highB.SetActive(true);
+        }
+        //end keys
+        ////////////////////////////////////////////
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            highCs.SetActive(false);
+            highCs.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Equals))
+        {
+            highDs.SetActive(false);
+            highDs.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Minus))
+        {
+            highFs.SetActive(false);
+            highFs.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            highGs.SetActive(false);
+            highGs.SetActive(true);
+        }
+        //end keys
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            highAs.SetActive(false);
+            highAs.SetActive(true);
+        }
+        //end keys
+    #endif
 }
